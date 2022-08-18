@@ -1,0 +1,143 @@
+/* pour remonter en haut de page de manière douce et pas brute */
+html { scroll-behavior: smooth; }
+
+body { font-size: 14pt;
+  width: 1080px; 
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("background.webp");
+  color: #9AE19D;
+  font-family: 'Montserrat', sans-serif;
+ }
+
+
+header { margin: 20px; }
+
+header p { font-size: 28pt;
+  text-decoration: none;
+  font-weight: bold;
+  color: #FFAD05;
+  padding-left: 70px;
+  }
+
+h1 { font-weight: bold;
+     color: #8ff093;
+     border: solid 4px whitesmoke;
+     text-align: center;
+     font-size: 50pt;
+     box-shadow: 5px 5px 100px rgb(48, 175, 13);
+     background: black;
+     }
+
+h2 { 
+  color:#FFAD05;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(3, 248, 211);
+  font-size: 20pt;
+  text-align: center;
+  text-decoration: underline wavy white;
+}
+
+header section { 
+  font-size: 20pt;
+  font-weight: bold;
+	color: blue;
+	text-decoration: underline; }
+
+div { margin: 10px; }
+
+p { 
+  font-size: 18pt;
+  font-weight: none;
+  }
+
+li { list-style-position: inside; }
+
+#photo1 {
+  position: relative; 
+  width: 200px;
+  height: 210px;
+  float: right;
+  top: -128px;
+  object-fit: cover;
+  border: solid 2px white;
+  border-radius: 30px;
+  }
+
+#film {
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#qualiter {
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+#jeux {
+  padding: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#sport {
+  text-align: center;
+  padding: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+#center { text-align: center; }
+
+#italic { text-decoration: italic; } 
+
+.lien {color: rgb(196, 57, 255)}
+
+.backpage {
+  color: white;
+  text-decoration: italic;
+  text-align: center;
+  font-weight: bold;
+}
+
+#hautdepage {text-align: center;}
+
+.img {
+  border: 3px solid black;
+  box-shadow: 5px 5px 5px black;
+  height: 500px;
+  width: fit-content;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transition: transform .2s;
+}
+/* zoom de l'image lorsqu'on passe le curseur dessus */
+.img:hover{
+      -ms-transform: scale(1.5);
+      -webkit-transform: scale(1.5);
+      transform: scale(1.5);
+}
+
+.box {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: black;
+  margin: auto;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: fit-content;
+  border: 15px ridge rgba(211, 220, 50, .6);
+  box-shadow: -8px 8px 5px black;
+  /* border-radius: 30px; */
+}
+
